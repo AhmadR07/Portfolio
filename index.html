@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ahmad Rahman — Final-year Computer Science student specializing in AI/ML at Integral University, Lucknow. Building things with machine learning, computer vision, and web development.">
+  <meta name="author" content="Ahmad Rahman">
+
+  <title>Ahmad Rahman — CS Student &amp; Developer</title>
+
+  <!-- Google Fonts: Inter for clean typography & JetBrains Mono for code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">Ahmad Rahman<span class="accent-dot">.</span></a>
+
+      <!-- Desktop Links -->
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <nav class="mobile-links">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-layout">
+          
+          <!-- Left Content Column -->
+          <div class="hero-content">
+            <span class="hero-greeting">Hi, I'm</span>
+            <h1 class="hero-name">Ahmad Rahman<span class="accent-dot">.</span></h1>
+            <p class="hero-subtitle">Computer Science student who likes building things.</p>
+            
+            <p class="hero-bio">
+              I'm a final-year B.Tech student specializing in AI &amp; ML at Integral University, Lucknow. I work on machine learning, computer vision and web development, and I'm always trying to turn something I'm learning into a project.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary">View my work</a>
+              <a href="#contact" class="btn btn-secondary">Get in touch</a>
+            </div>
+
+            <div class="hero-social-links">
+              <a href="https://github.com/AhmadR07" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                <span>GitHub</span>
+              </a>
+              <span class="dot-sep" aria-hidden="true">&middot;</span>
+              <a href="https://www.linkedin.com/in/ahmadsprofile?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+              <span class="dot-sep" aria-hidden="true">&middot;</span>
+              <a href="mailto:hamood4sale@gmail.com" class="social-link" title="Email">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>Email</span>
+              </a>
+              <span class="dot-sep" aria-hidden="true">&middot;</span>
+              <a href="resume.pdf" download class="social-link" title="Resume">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                <span>Resume</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Natural Developer Card Graphic -->
+          <div class="hero-visual" aria-hidden="true">
+            <div class="developer-card">
+              <!-- Window Chrome Header -->
+              <div class="dev-card-bar">
+                <span class="window-dot dot-red"></span>
+                <span class="window-dot dot-yellow"></span>
+                <span class="window-dot dot-green"></span>
+                <span class="card-filename">ahmad_profile.py</span>
+              </div>
+
+              <!-- Clean Code Snippet -->
+              <div class="dev-card-body">
+                <div class="code-line"><span class="c-comment"># Developer &amp; Student Profile</span></div>
+                <div class="code-line"><span class="c-key">class</span> <span class="c-class">Developer</span>:</div>
+                <div class="code-line indent-1">name = <span class="c-str">"Ahmad Rahman"</span></div>
+                <div class="code-line indent-1">major = <span class="c-str">"Computer Science (AI &amp; ML)"</span></div>
+                <div class="code-line indent-1">college = <span class="c-str">"Integral University, Lucknow"</span></div>
+                <div class="code-line indent-1">status = <span class="c-str">"Final Year B.Tech"</span></div>
+                <div class="code-line indent-1">focus = [</div>
+                <div class="code-line indent-2"><span class="c-str">"Deep Learning"</span>,</div>
+                <div class="code-line indent-2"><span class="c-str">"Computer Vision"</span>,</div>
+                <div class="code-line indent-2"><span class="c-str">"Explainable AI"</span>,</div>
+                <div class="code-line indent-2"><span class="c-str">"Web Development"</span></div>
+                <div class="code-line indent-1">]</div>
+                <div class="code-line"></div>
+                <div class="code-line"><span class="c-key">def</span> <span class="c-func">current_status</span>():</div>
+                <div class="code-line indent-1"><span class="c-key">return</span> <span class="c-str">"Building projects &amp; learning"</span></div>
+              </div>
+
+              <!-- Quick Status Footer -->
+              <div class="dev-card-footer">
+                <span class="status-indicator"></span>
+                <span class="status-text">Open to internships &amp; collaborative projects</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <h2>A little about me</h2>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I am currently in my final year of B.Tech in Computer Science and Engineering with a specialization in Artificial Intelligence &amp; Machine Learning at Integral University, Lucknow.
+            </p>
+            <p>
+              Most of my time goes into working with deep learning and computer vision architectures, understanding how they process visual representations, and making sense of model predictions with Explainable AI (XAI) tools. At the same time, I really enjoy practical web development. Building web interfaces gives my experiments a tangible form that anyone can actually interact with in a browser.
+            </p>
+            <p>
+              I believe the most effective way to learn computer science is by building genuine projects, running into bugs, reading the documentation, and improving one iteration at a time.
+            </p>
+          </div>
+
+          <!-- Currently learning sub-card -->
+          <div class="currently-learning-card">
+            <h3 class="card-subtitle">Currently learning</h3>
+            <ul class="learning-list">
+              <li>
+                <span class="list-bullet">&bull;</span>
+                <span>Deep Learning &amp; Neural Architectures</span>
+              </li>
+              <li>
+                <span class="list-bullet">&bull;</span>
+                <span>Computer Vision &amp; Image Feature Extraction</span>
+              </li>
+              <li>
+                <span class="list-bullet">&bull;</span>
+                <span>Explainable AI (SHAP, LIME)</span>
+              </li>
+              <li>
+                <span class="list-bullet">&bull;</span>
+                <span>Better full-stack development &amp; clean API design</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Things I work with</h2>
+          <p class="section-lead">A snapshot of languages, libraries, and tools I use when building projects.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Languages -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">Languages</h3>
+            <ul class="skill-tag-list">
+              <li class="skill-tag">Python</li>
+              <li class="skill-tag">JavaScript</li>
+              <li class="skill-tag">HTML</li>
+              <li class="skill-tag">CSS</li>
+              <li class="skill-tag">SQL</li>
+            </ul>
+          </div>
+
+          <!-- AI / ML -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">AI / ML</h3>
+            <ul class="skill-tag-list">
+              <li class="skill-tag">PyTorch</li>
+              <li class="skill-tag">TensorFlow</li>
+              <li class="skill-tag">Deep Learning</li>
+              <li class="skill-tag">Computer Vision</li>
+              <li class="skill-tag">Transformers / GPT</li>
+              <li class="skill-tag">Vision Transformers (ViT)</li>
+              <li class="skill-tag">ResNet50</li>
+              <li class="skill-tag">EfficientNet</li>
+              <li class="skill-tag">Explainable AI (SHAP &bull; LIME)</li>
+              <li class="skill-tag">Mesh-TensorFlow</li>
+            </ul>
+          </div>
+
+          <!-- Web Development -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">Web</h3>
+            <ul class="skill-tag-list">
+              <li class="skill-tag">FastAPI</li>
+              <li class="skill-tag">Native WebSockets</li>
+              <li class="skill-tag">SQLAlchemy</li>
+              <li class="skill-tag">SQLite</li>
+              <li class="skill-tag">React</li>
+              <li class="skill-tag">Node.js</li>
+              <li class="skill-tag">Express</li>
+              <li class="skill-tag">MongoDB</li>
+              <li class="skill-tag">REST APIs</li>
+              <li class="skill-tag">Tailwind CSS</li>
+            </ul>
+          </div>
+
+          <!-- Tools -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">Tools</h3>
+            <ul class="skill-tag-list">
+              <li class="skill-tag">Git</li>
+              <li class="skill-tag">GitHub</li>
+              <li class="skill-tag">Docker</li>
+              <li class="skill-tag">Jupyter</li>
+              <li class="skill-tag">VS Code</li>
+              <li class="skill-tag">TensorBoard</li>
+              <li class="skill-tag">Google Cloud (TPU/GPU)</li>
+              <li class="skill-tag">Power BI</li>
+              <li class="skill-tag">Excel</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Things I've built</h2>
+          <p class="section-lead">A collection of academic explorations, web apps, and personal projects.</p>
+        </div>
+
+        <div class="projects-list">
+          
+          <!-- Project 1: ScanEvidence -->
+          <article class="project-card">
+            <!-- Natural Technical Preview Graphic -->
+            <div class="project-preview-wrap" aria-hidden="true">
+              <svg viewBox="0 0 700 180" class="project-preview-svg" preserveAspectRatio="xMidYMid meet">
+                <rect width="700" height="180" fill="#131418"/>
+                <!-- Subtle grid background -->
+                <line x1="0" y1="45" x2="700" y2="45" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+                <line x1="0" y1="90" x2="700" y2="90" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+                <line x1="0" y1="135" x2="700" y2="135" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+                
+                <!-- Realistic MRI Scan Silhouette -->
+                <ellipse cx="140" cy="90" rx="60" ry="70" fill="none" stroke="#2e323b" stroke-width="2"/>
+                <ellipse cx="140" cy="90" rx="46" ry="56" fill="#181a20" stroke="#3d424e" stroke-width="1.5"/>
+                <!-- Internal anatomical sulci lines -->
+                <path d="M 125 50 Q 140 70 135 90 T 145 130" fill="none" stroke="#333742" stroke-width="1.5"/>
+                <path d="M 155 55 Q 140 75 145 95 T 135 125" fill="none" stroke="#333742" stroke-width="1.5"/>
+                <!-- Subtle XAI Activation Heatmap Region -->
+                <circle cx="152" cy="78" r="22" fill="rgba(56, 189, 248, 0.22)" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3 3"/>
+                <circle cx="152" cy="78" r="8" fill="rgba(56, 189, 248, 0.5)"/>
+                
+                <!-- Bounding Box Annotation -->
+                <rect x="122" y="52" width="56" height="52" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.8"/>
+                <text x="124" y="47" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="9">ROI: SHAP Focus</text>
+
+                <!-- Technical Specs Display on Right -->
+                <g transform="translate(240, 38)">
+                  <text x="0" y="15" fill="#f4f4f6" font-family="Inter, sans-serif" font-weight="600" font-size="13">ScanEvidence &bull; Brain Tumor Detection &amp; Explainable AI</text>
+                  <text x="0" y="38" fill="#9ea3ae" font-family="'JetBrains Mono', monospace" font-size="11">Modality: Multi-Sequence Brain MRI &bull; Feature Preprocessing</text>
+                  <text x="0" y="58" fill="#9ea3ae" font-family="'JetBrains Mono', monospace" font-size="11">Architectures: ResNet50 &bull; EfficientNet &bull; Vision Transformer (ViT)</text>
+                  <text x="0" y="78" fill="#6b707d" font-family="'JetBrains Mono', monospace" font-size="11">Interpretability: Game-theoretic SHAP &amp; Local LIME Feature Attribution</text>
+                  <text x="0" y="98" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10">&bull; Academic computer vision &amp; medical image transparency exploration</text>
+                </g>
+              </svg>
+            </div>
+
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-type">Deep Learning &bull; Computer Vision &bull; Medical Imaging</span>
+                <h3 class="project-title">ScanEvidence — Brain Tumor Detection &amp; Explainable AI</h3>
+              </div>
+              <p class="project-description">
+                ScanEvidence is a deep-learning-based medical imaging project focused on analyzing brain MRI scans for brain tumor detection and providing interpretable model predictions. The project explores the use of computer vision and explainable AI to make deep-learning-based medical image analysis more transparent and easier to understand.
+              </p>
+              <p class="project-description">
+                The system works with MRI brain scans and applies image preprocessing before passing the data through deep-learning models for feature extraction and classification. I experimented with multiple CNN and transformer-based architectures, including ResNet50, EfficientNet, and Vision Transformer (ViT), to study their effectiveness for medical image analysis. The project also incorporates Explainable AI techniques such as SHAP and LIME to analyze model predictions and identify the image regions or features that contribute to the model's decision.
+              </p>
+              <p class="project-note">
+                <em>Note: Built as an exploratory student research project studying model interpretability on public MRI benchmarks. Not a clinically deployed diagnostic system.</em>
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">PyTorch / Deep Learning</span>
+                <span class="tag">ResNet50</span>
+                <span class="tag">EfficientNet</span>
+                <span class="tag">Vision Transformer (ViT)</span>
+                <span class="tag">SHAP</span>
+                <span class="tag">LIME</span>
+                <span class="tag">Computer Vision</span>
+                <span class="tag">MRI Image Processing</span>
+                <span class="tag">NumPy</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Matplotlib</span>
+                <span class="tag">Scikit-learn</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AhmadR07/Scanvidenceorg" target="_blank" rel="noopener noreferrer" class="project-link">
+                  View on GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: ChatGPT-Neo -->
+          <article class="project-card">
+            <!-- Natural Technical Preview Graphic -->
+            <div class="project-preview-wrap" aria-hidden="true">
+              <svg viewBox="0 0 700 180" class="project-preview-svg" preserveAspectRatio="xMidYMid meet">
+                <rect width="700" height="180" fill="#131418"/>
+                <line x1="0" y1="45" x2="700" y2="45" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+                <line x1="0" y1="90" x2="700" y2="90" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+                <line x1="0" y1="135" x2="700" y2="135" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+                <!-- Distributed Mesh-TensorFlow Cluster Vector -->
+                <g transform="translate(45, 30)">
+                  <!-- 2D Mesh Grid: Data x Model Parallelism -->
+                  <rect x="0" y="0" width="135" height="115" rx="6" fill="#181a20" stroke="#2d323d" stroke-width="1"/>
+                  <text x="12" y="20" fill="#9ea3ae" font-family="'JetBrains Mono', monospace" font-size="9">Mesh Topology Grid</text>
+                  
+                  <!-- Accelerator Nodes -->
+                  <rect x="12" y="32" width="24" height="24" rx="3" fill="#212631" stroke="#3b82f6" stroke-width="1"/>
+                  <rect x="42" y="32" width="24" height="24" rx="3" fill="#212631" stroke="#3b82f6" stroke-width="1"/>
+                  <rect x="72" y="32" width="24" height="24" rx="3" fill="#212631" stroke="#3b82f6" stroke-width="1"/>
+                  <rect x="102" y="32" width="24" height="24" rx="3" fill="#212631" stroke="#3b82f6" stroke-width="1"/>
+
+                  <rect x="12" y="62" width="24" height="24" rx="3" fill="#212631" stroke="#38bdf8" stroke-width="1"/>
+                  <rect x="42" y="62" width="24" height="24" rx="3" fill="#212631" stroke="#38bdf8" stroke-width="1"/>
+                  <rect x="72" y="62" width="24" height="24" rx="3" fill="#212631" stroke="#38bdf8" stroke-width="1"/>
+                  <rect x="102" y="62" width="24" height="24" rx="3" fill="#212631" stroke="#38bdf8" stroke-width="1"/>
+
+                  <!-- Interconnect line -->
+                  <line x1="12" y1="44" x2="126" y2="44" stroke="rgba(56,189,248,0.4)" stroke-width="1" stroke-dasharray="2 2"/>
+                  <line x1="12" y1="74" x2="126" y2="74" stroke="rgba(56,189,248,0.4)" stroke-width="1" stroke-dasharray="2 2"/>
+                  
+                  <text x="12" y="104" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="8">TPU / GPU Acceleration</text>
+                </g>
+
+                <!-- Technical Specs Display on Right -->
+                <g transform="translate(230, 38)">
+                  <text x="0" y="15" fill="#f4f4f6" font-family="Inter, sans-serif" font-weight="600" font-size="13">ChatGPT-Neo &bull; Large-Scale Autoregressive Language Model</text>
+                  <text x="0" y="38" fill="#9ea3ae" font-family="'JetBrains Mono', monospace" font-size="11">Framework: Mesh-TensorFlow &bull; Distributed Model &amp; Data Parallelism</text>
+                  <text x="0" y="58" fill="#9ea3ae" font-family="'JetBrains Mono', monospace" font-size="11">Pipeline: Hugging Face GPT-2 Tokenizer &bull; TFRecords &bull; Sacred</text>
+                  <text x="0" y="78" fill="#6b707d" font-family="'JetBrains Mono', monospace" font-size="11">Infrastructure: Google Cloud Platform (TPUs/GPUs) &bull; Docker &bull; TensorBoard</text>
+                  <text x="0" y="98" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="10">&bull; Maintained and extended GPT-3-like autoregressive language modeling</text>
+                </g>
+              </svg>
+            </div>
+
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-type">Natural Language Processing &bull; Distributed Systems &bull; Transformers</span>
+                <h3 class="project-title">ChatGPT-Neo — Large-Scale Autoregressive Language Model</h3>
+              </div>
+              <p class="project-description">
+                ChatGPT-Neo is a maintained and extended implementation of a GPT-3-like autoregressive language-modeling system built around Mesh-TensorFlow. The project supports model and data parallelism and is designed to train and run large transformer-based language models across TPUs and GPUs.
+              </p>
+              <p class="project-description">
+                I worked on maintaining and adapting the GPT-Neo codebase, including its training configuration, dataset pipeline, tokenizer workflow, model configuration, and inference setup. The project supports different model sizes, configurable transformer architectures, distributed training, and multiple attention mechanisms.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">Mesh-TensorFlow</span>
+                <span class="tag">GPT / Transformer Architecture</span>
+                <span class="tag">Hugging Face GPT-2 Tokenizer</span>
+                <span class="tag">TPU / GPU Acceleration</span>
+                <span class="tag">Google Cloud Platform</span>
+                <span class="tag">TFRecords</span>
+                <span class="tag">Sacred</span>
+                <span class="tag">Docker / Docker Compose</span>
+                <span class="tag">TensorBoard / Omniboard</span>
+                <span class="tag">Git / GitHub</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AhmadR07/gpt-neo" target="_blank" rel="noopener noreferrer" class="project-link">
+                  View on GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Event Planner -->
+          <article class="project-card">
+            <!-- Natural Technical Preview Graphic -->
+            <div class="project-preview-wrap" aria-hidden="true">
+              <svg viewBox="0 0 700 180" class="project-preview-svg" preserveAspectRatio="xMidYMid meet">
+                <rect width="700" height="180" fill="#131418"/>
+                <line x1="0" y1="45" x2="700" y2="45" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+                <line x1="0" y1="90" x2="700" y2="90" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+                <line x1="0" y1="135" x2="700" y2="135" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+                <!-- Digital Ticket & QR Code Preview -->
+                <g transform="translate(45, 25)">
+                  <!-- Ticket Container Card -->
+                  <rect x="0" y="0" width="145" height="125" rx="6" fill="#181a20" stroke="#2d323d" stroke-width="1"/>
+                  <rect x="0" y="0" width="145" height="24" rx="6" fill="#212631"/>
+                  <text x="10" y="16" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="9">PASS: #TKT-2026-X8</text>
+                  
+                  <!-- QR Code Matrix Simulation -->
+                  <rect x="12" y="34" width="46" height="46" fill="#111317" stroke="#333846" stroke-width="1"/>
+                  <!-- QR position markers -->
+                  <rect x="16" y="38" width="12" height="12" fill="#38bdf8"/>
+                  <rect x="19" y="41" width="6" height="6" fill="#111317"/>
+                  <rect x="42" y="38" width="12" height="12" fill="#38bdf8"/>
+                  <rect x="45" y="41" width="6" height="6" fill="#111317"/>
+                  <rect x="16" y="64" width="12" height="12" fill="#38bdf8"/>
+                  <rect x="19" y="67" width="6" height="6" fill="#111317"/>
+                  <!-- QR data dots -->
+                  <rect x="32" y="38" width="4" height="4" fill="#94a3b8"/>
+                  <rect x="36" y="46" width="4" height="4" fill="#94a3b8"/>
+                  <rect x="42" y="58" width="4" height="4" fill="#94a3b8"/>
+                  <rect x="48" y="66" width="4" height="4" fill="#94a3b8"/>
+                  <rect x="32" y="64" width="4" height="4" fill="#94a3b8"/>
+
+                  <!-- Ticket Details -->
+                  <text x="66" y="48" fill="#f4f4f6" font-family="Inter, sans-serif" font-weight="600" font-size="10">Campus Hack</text>
+                  <text x="66" y="62" fill="#9ea3ae" font-family="'JetBrains Mono', monospace" font-size="8">Status: Confirmed</text>
+                  <rect x="66" y="70" width="68" height="14" rx="3" fill="rgba(16,185,129,0.15)" stroke="#10b981" stroke-width="0.8"/>
+                  <text x="73" y="80" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="8">&bull; QR VERIFIED</text>
+
+                  <!-- Real-Time WebSocket Indicator -->
+                  <circle cx="16" cy="106" r="4" fill="#10b981"/>
+                  <text x="26" y="109" fill="#9ea3ae" font-family="'JetBrains Mono', monospace" font-size="8">WebSocket: Live Broadcast</text>
+                </g>
+
+                <!-- Technical Specs Display on Right -->
+                <g transform="translate(230, 34)">
+                  <text x="0" y="15" fill="#f4f4f6" font-family="Inter, sans-serif" font-weight="600" font-size="13">Event Planner &bull; University Event Management &amp; Ticketing</text>
+                  <text x="0" y="38" fill="#9ea3ae" font-family="'JetBrains Mono', monospace" font-size="11">Backend: Python 3.10+ &bull; FastAPI &bull; SQLAlchemy ORM &bull; SQLite</text>
+                  <text x="0" y="58" fill="#9ea3ae" font-family="'JetBrains Mono', monospace" font-size="11">Real-Time: Native FastAPI WebSockets for instant live broadcast announcements</text>
+                  <text x="0" y="78" fill="#9ea3ae" font-family="'JetBrains Mono', monospace" font-size="11">Frontend &amp; Pass: Jinja2 &bull; Tailwind CSS &bull; Alpine.js &bull; QRCode.js</text>
+                  <text x="0" y="98" fill="#6b707d" font-family="'JetBrains Mono', monospace" font-size="11">Features: 4-stage tracking &bull; Admin dashboard &bull; Bulk review &bull; CSV export</text>
+                </g>
+              </svg>
+            </div>
+
+            <div class="project-content">
+              <div class="project-header">
+                <span class="project-type">Full-Stack Web &bull; Real-Time WebSockets &bull; FastAPI</span>
+                <h3 class="project-title">Event Planner — University Event Management &amp; Real-Time Ticketing</h3>
+              </div>
+              <p class="project-description">
+                A full-stack university event management platform engineered to streamline campus event discovery, multi-stage attendee registration, dynamic QR-code virtual ticketing, and real-time announcement broadcasts.
+              </p>
+              
+              <!-- Key Features Breakdown -->
+              <div class="project-features">
+                <h4 class="features-title">Key Features:</h4>
+                <ul class="features-list">
+                  <li><strong>Event Discovery:</strong> Users can browse university events by category and view live countdown timers.</li>
+                  <li><strong>Event Registration:</strong> Students can register using their name and university email and receive a unique Ticket ID.</li>
+                  <li><strong>Registration Tracking:</strong> A four-stage status workflow tracks participants through Registered &rarr; Under Review &rarr; Shortlisted &rarr; Confirmed.</li>
+                  <li><strong>Virtual Tickets:</strong> Confirmed participants receive a digital ticket containing their Ticket ID and dynamic QR code (QRCode.js).</li>
+                  <li><strong>Real-Time Announcements:</strong> Native WebSockets deliver announcements to connected users instantly without page refreshes.</li>
+                  <li><strong>Admin Dashboard:</strong> Administrators can view event statistics, manage participants, confirm/reject attendees in bulk, and export CSVs.</li>
+                </ul>
+              </div>
+
+              <p class="project-description">
+                <strong>Technical Implementation:</strong> The application uses FastAPI as the backend framework and SQLAlchemy as the ORM layer for interacting with the SQLite database, with Uvicorn running as an ASGI server. Jinja2 templates provide the server-rendered interface styled with Tailwind CSS and Alpine.js. WebSocket connections through FastAPI broadcast announcements in real time, while QRCode.js integrates dynamic pass generation for on-site event entry.
+              </p>
+
+              <div class="project-tags">
+                <span class="tag">Python 3.10+</span>
+                <span class="tag">FastAPI</span>
+                <span class="tag">SQLAlchemy</span>
+                <span class="tag">SQLite</span>
+                <span class="tag">Uvicorn</span>
+                <span class="tag">Native WebSockets</span>
+                <span class="tag">Jinja2</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Alpine.js</span>
+                <span class="tag">QRCode.js</span>
+                <span class="tag">CSV Export</span>
+                <span class="tag">Admin Dashboard</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AhmadR07/EventPlaN" target="_blank" rel="noopener noreferrer" class="project-link">
+                  View on GitHub &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Experience</h2>
+          <p class="section-lead">Internships and software development roles I've undertaken so far.</p>
+        </div>
+
+        <div class="experience-list">
+          
+          <!-- Octanet Pvt. Ltd. -->
+          <div class="experience-item">
+            <div class="exp-header">
+              <div>
+                <h3 class="exp-role">Web Development Intern</h3>
+                <span class="exp-company">Octanet Pvt. Ltd.</span>
+              </div>
+              <span class="exp-date">June 2025 &ndash; July 2025</span>
+            </div>
+            <p class="exp-desc">
+              Worked on frontend and web development tasks, including responsive landing page development using semantic HTML and clean CSS. Focused on structured layouts, cross-browser responsiveness, and component styling.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Education</h2>
+        </div>
+
+        <div class="education-card">
+          <div class="edu-header">
+            <div>
+              <h3 class="edu-degree">B.Tech — Computer Science &amp; Engineering</h3>
+              <p class="edu-specialization">Specialization: Artificial Intelligence &amp; Machine Learning</p>
+            </div>
+            <span class="edu-status">Final Year</span>
+          </div>
+          <p class="edu-institution">Integral University, Lucknow</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- A SMALL PERSONAL SECTION: OUTSIDE OF CODE -->
+    <section class="section personal-section" id="outside-of-code">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Outside of code</h2>
+        </div>
+
+        <div class="personal-card">
+          <p>
+            When I step away from code, model training, and terminal screens, here is what keeps me curious and engaged:
+          </p>
+          <ul class="personal-interests-list">
+            <li>
+              <strong>Puzzles &amp; Problem Solving:</strong> I have a natural draw toward analytical and spatial puzzles. Speedcubing with the <strong>Rubik's cube</strong> and playing <strong>chess</strong> are two of my top favorites—both train the mind in pattern recognition, foresight, and systematic algorithmic thinking.
+            </li>
+            <li>
+              <strong>Motorcycles &amp; Mechanics:</strong> I love riding motorbikes and have a genuine fascination with the mechanical engineering behind them—from engine internals and suspension geometry to hands-on maintenance, tuning, and custom builds.
+            </li>
+            <li>
+              <strong>Exploring Tech &amp; Tinkering:</strong> Staying up-to-date with emerging open-source tools, developer utilities, and interesting software experiments beyond my college curriculum.
+            </li>
+            <li>
+              <strong>Films &amp; Unwinding:</strong> Enjoying a thoughtful movie or documentary to recharge between builds.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Want to talk?</h2>
+          <p class="section-lead">If you have a project, opportunity, or just want to say hello, feel free to reach out.</p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Direct Links -->
+          <div class="contact-links-box">
+            <h3 class="box-title">Reach me directly</h3>
+            <p class="box-text">I'm always open to discussing internships, junior roles, collaborative projects, or tech in general.</p>
+
+            <div class="contact-items">
+              <div class="contact-item">
+                <span class="contact-label">Email:</span>
+                <a href="mailto:hamood4sale@gmail.com" class="contact-value">hamood4sale@gmail.com</a>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">GitHub:</span>
+                <a href="https://github.com/AhmadR07" target="_blank" rel="noopener noreferrer" class="contact-value">github.com/AhmadR07</a>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">LinkedIn:</span>
+                <a href="https://www.linkedin.com/in/ahmadsprofile?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="contact-value">linkedin.com/in/ahmadsprofile</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Simple Contact Form -->
+          <div class="contact-form-box">
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name">Name</label>
+                <input type="text" id="form-name" name="name" placeholder="Your name" required>
+                <span class="field-error" id="name-error">Please enter your name.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-email">Email</label>
+                <input type="email" id="form-email" name="email" placeholder="your.email@example.com" required>
+                <span class="field-error" id="email-error">Please enter a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" name="message" rows="4" placeholder="What's on your mind?" required></textarea>
+                <span class="field-error" id="message-error">Please enter a message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="form-submit-btn">Send Message</button>
+
+              <!-- Honest submission message -->
+              <div class="form-notice" id="form-notice">
+                <p>
+                  <strong>Thanks for reaching out!</strong> Since this is a static website without a server backend, please drop an email directly to <a href="mailto:hamood4sale@gmail.com">hamood4sale@gmail.com</a> or message me on LinkedIn so I don't miss it.
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-logo">Ahmad Rahman<span class="accent-dot">.</span></span>
+        <span class="footer-sub">Built with HTML, CSS &amp; JavaScript.</span>
+      </div>
+      <div class="footer-right">
+        <p>&copy; 2026 Ahmad Rahman</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
